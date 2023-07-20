@@ -21,6 +21,9 @@ const Seo: React.FC<SeoProps> = ({ description, title, children }) => {
         site {
           siteMetadata {
             title
+            author {
+              name
+            }
             description
           }
         }
@@ -29,11 +32,12 @@ const Seo: React.FC<SeoProps> = ({ description, title, children }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
+  const { name } = site.siteMetadata.author;
+  const defaultTitle = `${name} ${site.siteMetadata?.title}`;
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      <title>{`${title} | ${defaultTitle}`}</title>
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />

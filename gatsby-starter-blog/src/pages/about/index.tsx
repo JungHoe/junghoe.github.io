@@ -1,7 +1,13 @@
 import React from 'react';
+import Layout from '@/components/layout';
+import { AboutInterace } from '@/types';
 
-const index = () => {
-  return <div>어바웃</div>;
+const About: React.FC<AboutInterace> = ({ location }) => {
+  return (
+    <Layout location={location} title="about">
+      <div>어바웃</div>
+    </Layout>
+  );
 };
 
-export default index;
+export default About;

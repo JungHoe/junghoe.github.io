@@ -7,13 +7,14 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+const path = require('path');
 module.exports = {
   siteMetadata: {
-    title: `노근본코더 - 잡다구리 블로그`,
+    title: `잡다구리 블로그`,
     author: {
-      name: `이정회`,
+      name: `NOBeKo`,
       summary: `하기 싫지만 할 수 있는게 이거밖에 없다.`,
-      ps: `개발일상 블로그`,
+      ps: `개발 일상 블로그`,
     },
 
     description: `og 설명`,
@@ -121,6 +122,15 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/dev-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@': path.resolve(__dirname, 'src/'),
+        },
       },
     },
   ],
