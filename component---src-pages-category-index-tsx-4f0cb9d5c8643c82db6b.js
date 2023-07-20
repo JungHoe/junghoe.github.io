@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[28],{4895:function(t,e,a){a.r(e);var l=a(7294),r=a(5436);e.default=t=>{let{location:e}=t;return l.createElement(r.Z,{location:e,title:"category"},l.createElement("div",null,"카테고리"))}}}]);
+//# sourceMappingURL=component---src-pages-category-index-tsx-4f0cb9d5c8643c82db6b.js.map
