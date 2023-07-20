@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[154],{7189:function(e,t,a){a.r(t);var s=a(7294);t.default=()=>s.createElement("div",null,"어바웃")}}]);
+//# sourceMappingURL=component---src-pages-about-index-tsx-f74c5c8416e8b437d90d.js.map

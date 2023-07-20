@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-about-index-tsx-f74c5c8416e8b437d90d.js","mappings":"oJAMA,UAJcA,IACLC,EAAAA,cAAA,WAAK,M","sources":["webpack://gatsby-starter-blog/./src/pages/about/index.tsx"],"sourcesContent":["import React from 'react';\n\nconst index = () => {\n  return <div>어바웃</div>;\n};\n\nexport default index;\n"],"names":["index","React"],"sourceRoot":""}
