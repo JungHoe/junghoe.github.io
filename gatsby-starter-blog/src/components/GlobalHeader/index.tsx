@@ -5,7 +5,6 @@ import Header from './styles';
 import { LocationInterface } from '@/types';
 
 const GlobalHeader: React.FC<LocationInterface> = ({ location }) => {
-  console.debug('🤔 ~ file: index.tsx:10 ~ GlobalHeader ~ props:', location);
   const {
     site: {
       siteMetadata: {
