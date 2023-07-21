@@ -3,13 +3,14 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '@/components/layout';
 import Seo from '@/components/seo';
+import { useDayFormat } from '@/hooks';
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`;
-
+  const formattedDate = useDayFormat(post.frontmatter.date);
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -19,7 +20,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{formattedDate}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -86,7 +87,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         description
       }
     }

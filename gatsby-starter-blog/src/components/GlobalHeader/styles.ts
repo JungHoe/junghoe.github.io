@@ -26,13 +26,14 @@ const styles = styled.header`
       color: #ffffcc;
     }
     margin: 0 0 0 var(--spacing-10);
-    cursor: pointer;
+
     li {
       display: inline;
       ~ li {
         margin-left: var(--spacing-4);
       }
       a {
+        cursor: pointer;
         color: #efefef;
         text-decoration: none;
       }
