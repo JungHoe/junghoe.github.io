@@ -13,6 +13,7 @@ module.exports = {
     title: `잡다구리 블로그`,
     author: {
       name: `NOBeKo`,
+      realName: '이정회',
       summary: `하기 싫지만 할 수 있는게 이거밖에 없다.`,
       ps: `개발 일상 블로그`,
     },
@@ -134,4 +135,5 @@ module.exports = {
       },
     },
   ],
+  graphqlTypegen: true,
 };
