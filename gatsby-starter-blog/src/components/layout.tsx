@@ -1,4 +1,5 @@
 import * as React from 'react';
+import HorizonBar from './HorizonBar';
 import GlobalHeader from '@/components/GlobalHeader';
 
 interface LayoutProps {
@@ -16,8 +17,11 @@ const Layout: React.FC<LayoutProps> = ({ location, title, children }) => {
       <GlobalHeader location={location}></GlobalHeader>
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <main>{children}</main>
+        <HorizonBar />
         <footer>
-          © Junghoe, Built with
+          Copyright © 2023, All right reserved.
+          <br />
+          NOBeKo's Blog - Build with
           <a
             href="https://github.com/gatsbyjs/gatsby-starter-blog"
             className="staterLink"

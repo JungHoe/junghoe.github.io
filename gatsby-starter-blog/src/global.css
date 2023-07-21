@@ -281,6 +281,9 @@ a:focus {
   display: flex;
   margin-bottom: var(--spacing-16);
 }
+.noMg {
+  margin-top: 0;
+}
 .author-name {
   font-family: 'Cherry Cream Soda';
   font-weight: 400;

@@ -2,6 +2,7 @@
 import '@fontsource-variable/montserrat';
 import '@fontsource/merriweather';
 import '@fontsource/cherry-cream-soda';
+import '@fontsource/noto-sans-kr';
 // normalize CSS across browsers
 import './src/normalize.css';
 // custom CSS styles

@@ -1291,6 +1291,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/merriweather/-/merriweather-5.0.5.tgz#fe77407dcafbc33e44b18b9d233aceaaacef0057"
   integrity sha512-YDO04vxm76kwWNkX3FOchkVnO1L0iMuicqRHj4dIq7MXbwIYa21WLR50z9Rmhyl5I/hycd6nysHk3jdD7BzkOg==
 
+"@fontsource/noto-sans-kr@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-kr/-/noto-sans-kr-5.0.5.tgz#e41a0a3e13889dcb5cf509b7ae345097f51016db"
+  integrity sha512-lWiNL/up3HDm3Qi04MToLwyGji03lcpA9dTfID9Dl41tGbHsA1xZ+9SnPl+DKo+ZI9njQdZvjDQOONwQ+sPiGQ==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.11.0":
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-2.11.0.tgz#80b92ea1432838f5d86a8f85719ffe57fd3ddabe"
