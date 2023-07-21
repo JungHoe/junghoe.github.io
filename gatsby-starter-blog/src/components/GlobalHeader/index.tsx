@@ -45,7 +45,8 @@ const GlobalHeader: React.FC<LocationInterface> = ({ location }) => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/category">Category</Link>
+          {/* <Link to="/category">Category</Link> */}
+          <a>Category</a>
         </li>
       </ul>
       <div>
