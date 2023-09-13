@@ -23,7 +23,6 @@ const About: React.FC<AboutInterace> = ({ location }) => {
     }
   `);
   const author: Queries.Author = query.site!.siteMetadata!.author!;
-  console.log(author, '어써');
   return (
     <Layout location={location} title="about">
       <Wrapper>
