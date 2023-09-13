@@ -18,7 +18,7 @@ module.exports = {
       ps: `개발 일상 블로그`,
     },
 
-    description: `og 설명`,
+    description: `개발 일상 등등 잡다한거 올립니다.`,
     siteUrl: 'https://junghoe.github.io',
     social: {
       github: `https://github.com/junghoe`,
